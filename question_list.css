@@ -1,0 +1,53 @@
+body {
+    font-family: "Courier New";
+}
+header {
+    background-color: #ffcc99;
+    border: 1px #ffb366 solid;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+header a {
+    text-decoration: none;
+    color: #e60073;
+}
+.format{
+    margin: 5% 5% 5% 5%;
+    width: 85%;
+    border: 1px #B0C4DE solid;
+    padding: 1%;
+    background-color: #bbff99;
+}
+.format label{
+    /*margin: 2px;*/
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #4d0000;
+    /*width: 90%;*/
+}
+.format section{
+    margin-top: 1%;
+    /*margin: auto;*/
+    border: 1px darkblue solid;
+    /*width: 95%;*/
+    padding: 0.5%;
+    text-align: justify;
+}
+.format table {
+    width: 100%;
+    background-color: #e6f2ff;
+    border-collapse: collapse;
+    color: #4d0000;
+}
+td {
+    text-align: left;
+    padding: 8px;
+    color: #4d0000;
+}
+td a {
+    text-decoration: none;
+    color: #4d0000;
+}
+tr:nth-child(even) {
+    background-color: #b3d6ff;
+}

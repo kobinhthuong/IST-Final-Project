@@ -1,0 +1,94 @@
+body {
+    background-color: #cce6ff;
+    font-family: "Courier New";
+}
+.column {
+    float: left;
+    margin: 2%;
+    height: 100px;
+    border: 1px solid #005ce6;
+    border-radius: 2px;
+    padding: 5px;
+}
+.column.left {
+    width: 80%;
+    border: 1px solid #005ce6;
+    border-radius: 2px;
+    text-align: center;
+    background-image: url("cover.jpg");
+}
+.column.right {
+    width: 10%;
+    border: 1px solid #005ce6;
+    text-align: center;
+    align-content: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.contain {
+    width: 90%;
+    margin: 2%;
+    border: 1px solid #ff6666;
+    border-radius: 2px;
+    float: left;
+}
+.contain.ques {
+    width: 60%;
+    margin-top: 2%;
+    border: 1px solid #ff6666;
+    border-radius: 2px;
+    background-color: #ffcccc;
+}
+.contain.top {
+    width: 30%;
+    margin: 2%;
+    border: 1px solid #ff6666;
+    background-color: #ffcccc;
+}
+h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #0000e6;
+    font-size: x-large;
+}
+h4 {
+    text-align: right;
+    margin-right: 10px;
+    font-size: large;
+}
+ul {
+    background: #ff9999;
+    padding: 10px;
+}
+ul li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 5px;
+    list-style-type: none;
+    color: #009933;
+}
+ul li a {
+    text-decoration: none;
+    color: #004d1a;
+}
+table {
+    margin: 2%;
+    height: 50px;
+    width: 95%;
+    border: 1px solid #005ce6;
+    border-radius: 5px;
+    background-color: #99ccff;
+}
+table th {
+    font-size: large;
+}
+table th a {
+    text-decoration: none;
+    color: #0000e6;
+}
+
+
+
